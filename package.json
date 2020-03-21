@@ -1,0 +1,25 @@
+{
+  "name": "functional-js-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "curry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarasowski/functional-js-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarasowski/functional-js-2020/issues"
+  },
+  "homepage": "https://github.com/tarasowski/functional-js-2020#readme",
+  "dependencies": {
+    "fluture": "^12.2.0",
+    "ramda": "^0.27.0",
+    "ramda-x": "^1.0.11"
+  }
+}
