@@ -20,6 +20,7 @@
   "dependencies": {
     "fluture": "^12.2.0",
     "ramda": "^0.27.0",
-    "ramda-x": "^1.0.11"
+    "ramda-x": "^1.0.11",
+    "sanctuary": "^3.0.0"
   }
 }
