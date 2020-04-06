@@ -40,3 +40,48 @@ add(x, 0) == x
 add(multiply(x, y), multiply(x, z)) == multiply(x, add(y, z))
 ```
 
+# Functional Architecture
+
+* Architecture pays only if something grows in size
+* Architecutre is subjective, it depends on the application and the product
+* General Goal for web development, we can focus on the northstar
+  * Modular
+  * Extendable
+  * Performant
+  * Maintainable
+  * Readable
+
+* We have procedures (validate, filter, checkAge)
+  * We goup them into classes or modules (class Person().validate | .filter | .checkAge)
+* Procedures are just functions but not pure (just repeating some processes into
+                                              a function)
+* Remember the difference between procedures / functions
+
+## Functions with defined contracts
+
+* By investigating the functions type, and the type classes that holds specific
+property implemented that a contract
+
+* This is an example of encapsulation in functional programming 
+
+```js
+
+const identity = a => a
+
+```
+
+* Whats the value of identity
+
+```js
+const { Either } = require('types')
+
+const identity = a => a
+
+Either.of(2).fold(identity, identity)
+```
+
+> We want highly generalized functions. I'm just keep abstracting away, get
+> information hiding.
+
+* Favor composable functions, mostly
+* Normalize effect types throughout the app

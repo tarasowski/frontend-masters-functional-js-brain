@@ -22,5 +22,9 @@
     "ramda": "^0.27.0",
     "ramda-x": "^1.0.11",
     "sanctuary": "^3.0.0"
+  },
+  "devDependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "immutable-ext": "^1.1.5"
   }
 }
