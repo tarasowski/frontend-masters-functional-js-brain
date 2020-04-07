@@ -39,4 +39,4 @@ const validate = (spec, obj) =>
 //const validations = {name: isPresent, email: isPresent.concat(isEmail)}
 //const obj = {name: 'dimitri', email: ''}
 
-module.exports = {validate}
+module.exports = { validate }
