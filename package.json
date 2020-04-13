@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tarasowski/functional-js-2020#readme",
   "dependencies": {
+    "daggy": "^1.4.0",
     "fluture": "^12.2.0",
     "ramda": "^0.27.0",
     "ramda-x": "^1.0.11",
